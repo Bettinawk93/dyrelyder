@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Trykk på knappene</title>
+    <h1>Trykk på knappene for å høre lydene</h1>
+</head>
+<body>
+    
+
+    
+
+   
+
+
+<script>
+
+function play(sound){
+   var audio = document.getElementById("audio");
+    audio.setAttribute('src', sound);
+   audio.play();
+
+
+}
+
+
+</script>
+
+<input type="button" value="Hval" style= "height:60px;  width: 100px;"; onclick="audio1.play();">
+<audio id="audio1" src="hval.mp3"></audio>
+
+<input type="button" value="Katt" style= "height:60px;  width: 100px;"; onclick="audio2.play();" >
+<audio id="audio2" src="katt.mp3"></audio>
+
+<input type="button" value="Hest" style= "height:60px;  width: 100px;"; onclick="audio3.play();" >
+<audio id="audio3" src="hest.mp3"></audio>
+
+<input type="button" value="Hund" style= "height:60px;  width: 100px;"; onclick="audio4.play();" >
+<audio id="audio4" src="hund.mp3"></audio>
+
+        
+    <style>
+        body{
+        
+           text-align:center;
+           color: rgb(11, 2, 8);
+           font-size:x-large;
+           text-decoration:underline;
+           text-decoration-color: rgb(250, 227, 242);
+           background-image: url('./nordodal2.jpg');
+           background-repeat: no-repeat;
+         
+            height: 200vh;
+    
+         
+        }
+
+    </style>
+    
+    
+        
+    </body>
+    
+</html>
